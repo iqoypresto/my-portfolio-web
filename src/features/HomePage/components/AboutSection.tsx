@@ -13,7 +13,7 @@ export default function AboutSection() {
 
                 <div className="bg-gray-50 p-4">
                   <img
-                    src="https://hybrid.co.id/wp-content/uploads/2019/06/a9c53e183c903a0989f14ffff8f20dff_Es-Kopi-Kenangan-Mantan.jpg"
+                    src="./blackcat.avif"
                     alt="Profile"
                     className="block h-90 lg:h-120 lg:w-100 object-cover"
                   />

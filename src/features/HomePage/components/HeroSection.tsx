@@ -20,7 +20,7 @@ export default function HeroSection() {
         </div>
         <div className="flex items-center h-full lg:mx-10 lg:ms-20 col-start-1 lg:col-start-4 lg:col-span-2 ">
           <div className=" w-full aspect-square">
-              <img src="https://hybrid.co.id/wp-content/uploads/2019/06/a9c53e183c903a0989f14ffff8f20dff_Es-Kopi-Kenangan-Mantan.jpg" className="h-full w-full object-cover rounded-full" />
+              <img src="./blackcat.avif" className="h-full w-full object-cover rounded-full" />
           </div>
         </div>
       </div>
