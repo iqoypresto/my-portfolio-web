@@ -47,16 +47,16 @@ export default function Navbar() {
         className={`shadow-md absolute bg-white w-full transition-all duration-300 ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}
       >
         <div className="flex flex-col">
-          <a href="/#about" className="p-5">
+          <a href="/#about" className="p-5" onClick={() => {setIsOpen(!isOpen)}}>
             About
           </a>
-          <a href="/#work" className="p-5">
+          <a href="/#work" className="p-5" onClick={() => {setIsOpen(!isOpen)}}>
             Work
           </a>
-          <a href="/#testimonials" className="p-5">
+          <a href="/#testimonials" className="p-5" onClick={() => {setIsOpen(!isOpen)}}>
             Testimonials
           </a>
-          <a href="/#contact" className="p-5">
+          <a href="/#contact" className="p-5" onClick={() => {setIsOpen(!isOpen)}}>
             Contact
           </a>
         </div>
