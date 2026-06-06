@@ -14,7 +14,7 @@ export default function AboutSection() {
                 <div className="bg-gray-50 p-4">
                   <img
                     src="./blackcat.avif"
-                    alt="Profile"
+                    alt="profile"
                     className="block h-90 lg:h-120 lg:w-100 object-cover"
                   />
                 </div>

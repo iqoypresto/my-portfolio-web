@@ -5,8 +5,8 @@ export default function TestimonialCard() {
         <div className="flex justify-center">
           <div className="bg-gray-400 w-16 aspect-square rounded-full overflow-hidden">
             <img
-              src="https://hybrid.co.id/wp-content/uploads/2019/06/a9c53e183c903a0989f14ffff8f20dff_Es-Kopi-Kenangan-Mantan.jpg"
-              alt="profile"
+              src="./blackcat.avif"
+              alt="black-cat-testimoni"
               className="w-full h-full object-cover"
             />
           </div>

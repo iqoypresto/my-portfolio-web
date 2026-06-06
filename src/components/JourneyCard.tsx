@@ -19,7 +19,7 @@ export default function JourneyCard({
     <div className="grid lg:grid-cols-5 gap-12 bg-white w-full lg:w-4xl p-8 rounded-xl shadow-md text-gray-600">
       <div className="col-start-1">
         <div className="aspect-square w-[50%] lg:w-full">
-          <img src={imageUrl} className="w-full object-cover" />
+          <img src={imageUrl} alt="journey-logo" className="w-full object-cover" />
         </div>
       </div>
       <div className="lg:col-span-2 flex flex-col gap-4">

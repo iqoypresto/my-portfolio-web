@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className="flex justify-center">
         <div className="flex justify-between items-center max-w-7xl w-full">
           <a href="/#home" className="h-17 w-38" >
-            <img src="./logo.png" className="h-full w-full object-cover" alt="" />
+            <img src="./logo.png" className="h-full w-full object-cover" alt="web-logo" />
           </a>
 
           <div className="flex">
