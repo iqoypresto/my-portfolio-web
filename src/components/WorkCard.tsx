@@ -7,7 +7,7 @@ interface WorkCardProps {
 
 export default function WorkCard({ toolTitle }: WorkCardProps) {
   return (
-    <div className="grid grid-cols-2 bg-white drop-shadow-xl w-full rounded-xl overflow-hidden">
+    <div className="grid lg:grid-cols-2 bg-white drop-shadow-xl w-full rounded-xl overflow-hidden">
       <div className="p-12 bg-gray-50 ring-1 ring-gray-100 ring-inset flex justify-center">
         <a
           href="https://www.wingie.com/"
