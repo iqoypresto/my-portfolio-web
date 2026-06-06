@@ -1,11 +1,17 @@
+import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
+import SectionTitle from "../../../components/SectionTitle";
+import WorkCard from "../../../components/WorkCard";
+
 export default function WorkSection() {
   return (
-    <div id="work" className="bg-white flex justify-center py-25 h-[1000px]">
+    <div id="work" className="bg-white flex justify-center py-25">
       <div className="w-full max-w-7xl">
-        <div className="flex justify-center">
-          <h5 className="bg-gray-200 py-1 px-5 rounded-xl text-gray-600 font-medium text-[14px]">
-            Work
-          </h5>
+        <div className="flex flex-col items-center">
+          <SectionTitle title="Work" />
+          <p>Some of noteworthy projects i have built:</p>
+          <div className="flex flex-col gap-12 mt-12">
+            <WorkCard toolTitle={['React', 'Typescript', 'React Bootstrap', 'Firebase', 'Express.js', 'PostgreSQL', 'Styled Components',]} />
+          </div>
         </div>
       </div>
     </div>

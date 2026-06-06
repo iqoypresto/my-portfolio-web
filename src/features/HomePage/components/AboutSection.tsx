@@ -21,7 +21,7 @@ export default function AboutSection() {
               </div>
             </div>
             <div>
-              <h2 className="text-[30px] font-bold leading-tight">
+              <h2 className="text-[30px] font-semibold leading-tight">
                 Get to know the person behind the screen.
               </h2>
               <div className="text-gray-600 text-[16px]">
