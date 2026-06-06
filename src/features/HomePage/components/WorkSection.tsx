@@ -1,4 +1,3 @@
-import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
 import SectionTitle from "../../../components/SectionTitle";
 import WorkCard from "../../../components/WorkCard";
 
