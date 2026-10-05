@@ -11,7 +11,7 @@ export default function HeroSection() {
             Hi, I'm Rifqi. <br /> Frontend Developer & Aspiring <span className="text-indigo-600">Full Stack Developer</span>
           </div>
           <div className="text-gray-600">
-            I'm an Computer Science student passionate about creating responsive and user-friendly web application. Currently expanding my expertise in Full Stack Development through React, Typescript, Express.js, and REST API development.
+            I'm an Informatics Engineering student passionate about creating responsive and user-friendly web application. Currently expanding my expertise in Full Stack Development through React, Typescript, Express.js, and REST API development.
           </div>
           <div className="flex gap-5">
             <button className="bg-indigo-600 text-white p-3 rounded-md">View Projects</button>

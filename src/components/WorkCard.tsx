@@ -2,27 +2,30 @@ import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
 import ToolText from "./ToolText";
 
 interface WorkCardProps {
+  projectLink: string;
+  imageSrc: string;
+  title: string;
   toolTitle: string[];
 }
 
-export default function WorkCard({ toolTitle }: WorkCardProps) {
+export default function WorkCard({ projectLink, imageSrc, title, toolTitle }: WorkCardProps) {
   return (
     <div className="grid lg:grid-cols-2 bg-white drop-shadow-xl w-full rounded-xl overflow-hidden">
       <div className="p-12 bg-gray-50 ring-1 ring-gray-100 ring-inset flex justify-center">
         <a
-          href="https://www.wingie.com/"
+          href={projectLink}
           target="_blank"
           className="drop-shadow-xl bg-black w-full h-96 transition-all duration-500 hover:scale-105 rounded-xl overflow-hidden"
         >
           <img
-            src="./project-wingie.webp"
+            src={imageSrc}
             className="w-full h-full object-cover"
             alt=""
           />
         </a>
       </div>
       <div className="p-12 flex flex-col gap-6">
-        <h3 className="text-[20px] font-semibold">Wingie</h3>
+        <h3 className="text-[20px] font-semibold">{title}</h3>
         <p className="text-[16px] text-gray-600">
           A platform for comparing and finding affordable flights, as well as
           booking and purchasing tickets safely and easily in a few simple
