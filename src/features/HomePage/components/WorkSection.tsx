@@ -10,7 +10,7 @@ export default function WorkSection() {
           <p>Some of noteworthy projects i have built:</p>
           <div className="flex flex-col gap-12 mt-12">
             <WorkCard projectLink="https://laundryapp-ui.vercel.app/" imageSrc="./project-popo-laundry.png" title="Popo Laundry" toolTitle={['React', 'Typescript', 'React Bootstrap', 'Firebase', 'Express.js', 'PostgreSQL', 'Styled Components',]} />
-            <WorkCard projectLink="https://arena-hub-fe-navy.vercel.app/" imageSrc="./project-arena-hub.png" title="Popo Laundry" toolTitle={['React', 'Typescript', 'React Bootstrap', 'Firebase', 'Express.js', 'PostgreSQL', 'Styled Components',]} />
+            <WorkCard projectLink="https://arena-hub-fe-navy.vercel.app/" imageSrc="./project-arena-hub.png" title="Arena Hub" toolTitle={['React', 'Typescript', 'React Bootstrap', 'Firebase', 'Express.js', 'PostgreSQL', 'Styled Components',]} />
           </div>
         </div>
       </div>

@@ -20,9 +20,6 @@ export default function Navbar() {
               <a href="/#work" className="p-5">
                 Work
               </a>
-              <a href="/#testimonials" className="p-5">
-                Testimonials
-              </a>
               <a href="/#contact" className="p-5">
                 Contact
               </a>

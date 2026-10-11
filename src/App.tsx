@@ -5,7 +5,6 @@ import {
   FooterSection,
   HeroSection,
   SkillsSection,
-  TestimonialSection,
   WorkSection,
 } from "./features/HomePage/components";
 
@@ -19,7 +18,6 @@ export default function App() {
         <SkillsSection />
         <ExperienceSection />
         <WorkSection />
-        <TestimonialSection />
         <FooterSection />
       </div>
     </div>
